@@ -1,0 +1,27 @@
+@mixin spin($size, $weight, $color) {
+  animation: spinner 0.75s linear infinite;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-radius: 50%;
+  border-right-color: $color;
+  border-style: solid;
+  border-top-color: $color;
+  border-width: $weight;
+  box-sizing: border-box;
+  display: inline-block;
+  height: $size;
+  width: $size;
+}
+
+@mixin avatar($size) {
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: $size;
+  width: $size;
+  overflow: hidden;
+}
+
+@mixin trs {
+  transition: all 0.3s;
+}

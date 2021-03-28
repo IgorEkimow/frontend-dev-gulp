@@ -1,0 +1,25 @@
+@keyframes loading {
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingText {
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
